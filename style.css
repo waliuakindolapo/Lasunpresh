@@ -1,0 +1,111 @@
+/*header styling*/
+.header-section {
+    background-color: rgb(250, 209, 249);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0 5px 0;
+
+}
+
+.header-anchor {
+    background-color: rgb(7, 66, 7);
+    border: solid;
+    border-color: rgb(7, 66, 7);
+    border-radius: 5px;
+    display: inline;
+}
+
+.header-nav {
+    color: rgb(7, 66, 7);
+    
+   
+}
+
+.box1 {
+    background-color: rgb(250, 209, 249);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 180px 20px 180px;
+}
+
+.box1a {
+    width: calc(box1-60%);
+    display: inline;
+}
+
+.box1b {
+    width: calc(box1-60%);
+    display: inline;
+}
+
+.box1c {
+    width: calc(box1-60%);
+    display: inline;
+    
+}
+
+.box2 {
+    background-color: rgb(241, 220, 176);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box3 {
+    background-color: rgb(241, 220, 176);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box4 {
+    background-color: rgb(241, 220, 176);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box5 {
+    background-color: rgb(241, 220, 176);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vision {
+    background-color: rgb(250, 209, 249);
+    text-align: left;
+    font-size: 20px;
+    padding: 50px 310px 50px 310px;
+
+}
+
+.review {
+    text-align: center;
+    background-color: rgb(250, 209, 249);
+}
+
+.box6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 310px 30px 310px;
+    
+}
+
+.box6a {
+    display: inline;
+}
+
+.box6b {
+    display: inline;
+}
