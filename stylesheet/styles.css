@@ -3,45 +3,83 @@
   background-color: rgb(250, 209, 249);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px 0 5px 0;
+  padding: 5px;
 }
 
-.header-anchor {
-  background-color: rgb(7, 66, 7);
+.lasunlogo {
+  justify-content: flex-start;
+  width: 35%;
+}
+
+.header-contact {
+  background-color: rgb(76, 5, 104);
   border: solid;
-  border-color: rgb(7, 66, 7);
+  border-color: rgb(76, 5, 104);
   border-radius: 5px;
   display: inline;
 }
 
 .header-nav {
-  color: rgb(7, 66, 7);
+  display: flex;
+  justify-content: flex-end
+  color: rgb(35, 3, 48);
+  font-size: 24px;
+  text-align: center;
 }
 
 .box1 {
   background-color: rgb(250, 209, 249);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px 180px 20px 180px;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .box1a {
-  width: calc(box1-60%);
   display: inline;
+  font-size: 24px;
+  width: 30%;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 .box1b {
-  width: calc(box1-60%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+
+.box1bi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(76, 5, 104);
+  border-color: rgb(76, 5, 104);
+   height: 25%;
+}
+
+.box1bii {
   display: inline;
 }
 
+.box1biii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(76, 5, 104);
+  border-color: rgb(76, 5, 104);
+  height: 25%;
+  font-size: 20px;
+}
+
 .box1c {
-  width: calc(box1-60%);
-  display: inline;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
 }
 
 .box2 {
@@ -78,41 +116,47 @@
 
 .vision-review {
   background-color: rgb(250, 209, 249);
-  padding: 5px 0px 20px 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px 5% 20px 5%;
 }
 
 .vision {
-  background-color: rgb(250, 209, 249);
-  text-align: left;
+  display: inline;
+  text-align: center;
   font-size: 20px;
+  padding: 0 5% 0 5%;
 }
 
 .review {
   text-align: center;
   background-color: rgb(250, 209, 249);
+
 }
 
 .box6 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .box6a {
   display: inline;
-  border: 1px solid rgb(76, 5, 104);
+  border: 2px solid rgb(76, 5, 104);
   border-radius: 10px;
+  padding: 0px 5px 30px 5px
 }
 
 .box6b {
   display: inline;
-  border: 1px solid rgb(152, 7, 209);
+  border: 2px solid rgb(76, 5, 104);
   border-radius: 10px;
+  padding: 0px 5px 30px 5px
 }
 
 footer {
-    background-color: rgb(209, 212, 250);
+  background-color: rgb(238, 238, 248);
 }
 
 .box7 {
@@ -123,31 +167,28 @@ footer {
 }
 
 .box7a {
-    display: inline;
-    font-size: 20px;
-    
+  display: inline;
+  font-size: 20px;
 }
 
 .box7b {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .box7c {
-    display: flex;
-    flex-direction: column;
-
-
+  display: flex;
+  flex-direction: column;
 }
 
 .copyright {
   text-align: center;
-  background-color: rgb(209, 212, 250);
+  background-color: rgb(238, 238, 248);
 }
 
 .footer-logo {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(250, 209, 249);
-    padding: 5px 0 5px 0; 
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 209, 249);
+  padding: 5px 0 5px 0;
 }
