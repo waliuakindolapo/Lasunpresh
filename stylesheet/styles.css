@@ -1,79 +1,172 @@
+font {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 /*header styling*/
 .header-section {
-  background-color: rgb(250, 209, 249);
+  background-color: #EFD3F9;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 5px;
+  border: 1px solid;
+  padding: 7px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .lasunlogo {
   justify-content: flex-start;
-  width: 35%;
-}
-
-.header-contact {
-  background-color: rgb(76, 5, 104);
-  border: solid;
-  border-color: rgb(76, 5, 104);
-  border-radius: 5px;
-  display: inline;
+  width: 23%;
 }
 
 .header-nav {
   display: flex;
-  justify-content: flex-end
-  color: rgb(35, 3, 48);
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(50, 11, 63);
   font-size: 24px;
   text-align: center;
 }
 
+button {
+  margin-inline: 30px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-contact a {
+  color: #fff;
+}
+
+.other-buttons {
+  background-color: #EFD3F9;
+  border-style: none;
+}
+
+.other-buttons a {
+  color: rgb(50, 11, 63);
+}
+
+.header-contact {
+  background-color: rgb(50, 11, 63);
+  border: solid;
+  border-color: rgb(50, 11, 63);
+  border-radius: 8px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
 .box1 {
-  background-color: rgb(250, 209, 249);
+  background-color: #EFD3F9;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  padding: 0px 20px;
+  height: 500px;
+  color: rgb(50, 11, 63);
 }
 
 .box1a {
   display: inline;
   font-size: 24px;
-  width: 30%;
+  width: 28%;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 60px;
+  font-weight: 400;
+}
+
+.box1a a {
+  color: rgb(50, 11, 63);
+}
+
+#trade-button {
+  background-color: rgb(50, 11, 63);
+  border: solid;
+  border-color: rgb(50, 11, 63);
+  border-radius: 8px;
+  margin: 20px 0px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#trade-button a {
+  color: #fff;
+  font-size: 18px;
+
+}
+
+h2, .box1b p, h3 {
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 .box1b {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 30%;
-}
+  width: 23%;
+  height: 470px;
+  overflow: hidden;
+  border: 1px solid rgb(203, 182, 212);
+  box-shadow: 0px -0.5px 5px 0.5px rgba(26, 25, 25, 0.3);}
 
 .box1bi {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(76, 5, 104);
-  border-color: rgb(76, 5, 104);
-   height: 25%;
+  background-color: rgb(50, 11, 63);
+  border-color: rgb(50, 11, 63);
+  width: 200px;
+  height: 90px;
+  color: #fff;
+  transform: skew(-45deg,45deg);
+  margin-left: 50%;
+  font-size: 13px;
+  translate: 10px -15px;
+  
 }
 
 .box1bii {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  line-height: 0.9;
+  height: 280px;
+  font-size: 24px;
 }
 
 .box1biii {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(76, 5, 104);
-  border-color: rgb(76, 5, 104);
-  height: 25%;
+  background-color: rgb(50, 11, 63);
+  border-color: rgb(50, 11, 63);
+  height: 80px;
   font-size: 20px;
 }
+
+.box1biii a {
+  color: #fff;
+}
+
 
 .box1c {
   display: flex;
@@ -86,40 +179,46 @@
   background-color: rgb(241, 220, 176);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  padding: 10px;
+  color: rgb(50, 11, 63);
 }
 
 .box3 {
   background-color: rgb(241, 220, 176);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  color: rgb(50, 11, 63);
 }
 
 .box4 {
   background-color: rgb(241, 220, 176);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  color: rgb(50, 11, 63);
 }
 
 .box5 {
   background-color: rgb(241, 220, 176);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  color: rgb(50, 11, 63);
 }
 
 .vision-review {
-  background-color: rgb(250, 209, 249);
+  background-color: #EFD3F9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 5px 5% 20px 5%;
+  color: rgb(50, 11, 63);
 }
 
 .vision {
@@ -131,8 +230,7 @@
 
 .review {
   text-align: center;
-  background-color: rgb(250, 209, 249);
-
+  background-color: #EFD3F9;
 }
 
 .box6 {
@@ -143,37 +241,53 @@
 
 .box6a {
   display: inline;
-  border: 2px solid rgb(76, 5, 104);
+  border: 2px solid rgb(50, 11, 63);
   border-radius: 10px;
-  padding: 0px 5px 30px 5px
+  padding: 0px 5px 30px 5px;
 }
 
 .box6b {
   display: inline;
-  border: 2px solid rgb(76, 5, 104);
+  border: 2px solid rgb(50, 11, 63);
   border-radius: 10px;
-  padding: 0px 5px 30px 5px
-}
-
-footer {
-  background-color: rgb(238, 238, 248);
+  padding: 0px 5px 30px 5px;
 }
 
 .box7 {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  padding-block: 20px;
+  color: rgb(50, 11, 63);
+  align-items:first baseline
+}
+
+.box7 a {
+  color: rgb(50, 11, 63);
 }
 
 .box7a {
   display: inline;
-  font-size: 20px;
+  font-size: 24px;
+  align-items: center;
 }
 
 .box7b {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+
+.box7bi, .box7bii, .box7biii {
+  line-height: 1px ;
+  padding-block: 10px;
+}
+
+.box7bii img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
 }
 
 .box7c {
@@ -182,13 +296,23 @@ footer {
 }
 
 .copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  background-color: rgb(238, 238, 248);
+  background-color: #fff;
+  color: rgb(50, 11, 63);
 }
 
 .footer-logo {
   display: flex;
   justify-content: center;
-  background-color: rgb(250, 209, 249);
-  padding: 5px 0 5px 0;
+  background-color: #EFD3F9;
+  padding: 8px 0;
+}
+
+.footer-buttons {
+  background-color: #fff;
+  border-style: none;
+  text-align: left;
 }
