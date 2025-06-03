@@ -86,7 +86,7 @@ body {
 
 .box1a p {
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .box1a a {
@@ -189,7 +189,10 @@ h3 {
   background-color: rgb(241, 220, 176);
 }
 
-.box2 {
+.box2,
+.box3,
+.box4,
+.box5 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -198,50 +201,13 @@ h3 {
   color: rgb(50, 11, 63);
 }
 
-.box2a {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 450px;
-}
-
-.box3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  color: rgb(50, 11, 63);
-}
-
-.box3b {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 450px;
-}
-
-
-.box4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  color: rgb(50, 11, 63);
-}
-
+.box2a,
+.box3b,
 .box4a {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 450px;
-}
-
-.box5 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  color: rgb(50, 11, 63);
 }
 
 .vision-review {
@@ -259,7 +225,6 @@ h3 {
   text-align: center;
   font-size: 20px;
   padding: 0 10px;
-  
 }
 
 .review {
@@ -273,7 +238,8 @@ h3 {
   justify-content: space-around;
 }
 
-.box6a, .box6b {
+.box6a,
+.box6b {
   display: inline;
   border: 2px solid rgb(50, 11, 63);
   border-radius: 10px;
@@ -281,7 +247,6 @@ h3 {
   width: 540px;
   height: 160px;
 }
-
 
 .box7 {
   display: flex;
@@ -414,221 +379,353 @@ a:hover {
   box-shadow: 0px -0.5px 5px 0.5px rgba(26, 25, 25, 0.3);
 }
 
-
-@media only screen and (max-width:360px) {
+@media only screen and (max-width: 440px) and (min-width: 320px) {
   .header-section {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #efd3f9;
+    max-width: 100%;
   }
 
-  header {
-    background-color: #efd3f9;
-    width: 100%;
-  }
   .lasunlogo {
-  justify-content: center;
-  width: 180px;
-  align-content: center;
-  margin: 5px 5px;
+    justify-content: center;
+    width: 180px;
+    align-content: center;
+    margin: 5px 5px;
   }
 
   .header-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #efd3f9;
-  width: 180px
-  color: rgb(50, 11, 63);
-  font-size: 16px;
-  text-align: center;
-  padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #efd3f9;
+    width: 100px;
+    color: rgb(50, 11, 63);
+    font-size: 16px;
+    text-align: center;
+    padding: auto;
+  }
 
+  .header-contact {
+    background-color: rgb(50, 11, 63);
+    border: solid;
+    border-color: rgb(50, 11, 63);
+    border-radius: 5px;
+  }
+
+  .box1 {
+    background-color: #efd3f9;
+    display: block;
+    padding: 0px auto;
+    color: rgb(50, 11, 63);
+    max-width: 100%;
+    height: 100%;
+  }
+
+  button {
+    margin-inline: 0px auto;
+    padding: 2px;
+  }
+
+  .box1b {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 470px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid rgb(203, 182, 212);
+    box-shadow: 0px -0.5px 5px 0.5px rgba(26, 25, 25, 0.3);
+  }
+
+  .box1bi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 11, 63);
+    border: rgb(50, 11, 63);
+    width: 190px;
+    height: 85px;
+    color: #fff;
+    transform: skew(-45deg, 45deg);
+    margin-left: 52%;
+    font-size: 12px;
+    translate: -10x -10px;
+  }
+
+  .box1biii {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(50, 11, 63);
+    border: rgb(50, 11, 63);
+    height: 80px;
+    font-size: 20px;
+    width: 300px;
+    translate: 0px -10px;
+  }
+
+  .box1c {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    padding-block: 20px;
+  }
+
+  .orange-box {
+    background-color: rgb(241, 220, 176);
+    max-width: 100%;
+  }
+
+  .box2,
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(50, 11, 63);
+  }
+
+  .box2a,
+  .box4a {
+    padding: 0px 5px;
+    width: 300px;
+    text-align: left;
+  }
+
+  .box2b,
+  .box4b {
+    margin: 10px auto;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .box3,
+  .box5 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(50, 11, 63);
+  }
+
+  .box3a,
+  .box5a {
+    margin: 10px auto;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .box3b,
+  .box5b {
+    padding: 0px 50px;
+    width: 300px;
+    text-align: left;
+  }
+
+  .vision-review {
+    background-color: #efd3f9;
+    max-width: 100%;
+  }
+
+  .vision {
+    display: inline;
+    text-align: left;
+    font-size: 20px;
+    padding: 0 auto;
+    width: 300px;
+  }
+
+  .box6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 480px;
+  }
+
+  .box6a,
+  .box6b {
+    display: inline;
+    border: 2px solid rgb(50, 11, 63);
+    margin: auto;
+    border-radius: 10px;
+    height: 190px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .box7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+    padding-block: 20px;
+    color: rgb(50, 11, 63);
+    align-items: first baseline;
+  }
+
+  .box7a {
+    display: inline;
+    justify-content: flex-start;
+    font-size: 20px;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+  }
+
+  .box7b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+
+  .box7c {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    color: rgb(50, 11, 63);
+    font-size: 16px;
+  }
 }
-  
-.box1 {
-  background-color: #efd3f9;
-  display: block;
-  padding: 0px auto;
-  color: rgb(50, 11, 63);
-  width: 100%;
-  height: 100%;
-}
 
-button {
-  margin-inline: 0px auto;
-  padding: 2px;
-}
+@media only screen and (max-width: 900px) and (min-width: 760px) {
+  .lasunlogo {
+    justify-content: flex-start;
+    width: 180px;
+  }
 
-.box1b {
-  display: block;
-  text-align: center;
-  width: 335px;
-  height: 470px;
-  overflow: hidden;
-  border: 1px solid rgb(203, 182, 212);
-  box-shadow: 0px -0.5px 5px 0.5px rgba(26, 25, 25, 0.3);
-}
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(50, 11, 63);
+    font-size: 22px;
+    text-align: center;
+    width: 450px;
+  }
 
-.box1bi {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(50, 11, 63);
-  border: rgb(50, 11, 63);
-  width: 190px;
-  height: 85px;
-  color: #fff;
-  transform: skew(-45deg, 45deg);
-  margin-left: 60%;
-  font-size: 12px;
-  translate: -1px -17px;
-}
+  button {
+    margin-inline: 10px;
+    padding: 5px;
+  }
 
+  .box1 {
+    background-color: #efd3f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 20px;
+    height: 500px;
+    color: rgb(50, 11, 63);
+    margin: auto;
+  }
 
-.box1biii {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background-color: rgb(50, 11, 63);
-  border: rgb(50, 11, 63);
-  height: 80px;
-  font-size: 20px;
-  width: 335px;
-  translate: 0px -10px;
-}
+  .box1a {
+    display: inline;
+    font-size: 20px;
+    width: 200px;
+    padding-bottom: 20px;
+    padding: 5px;
+    font-weight: 400;
+  }
 
-.box1c {
-  display: flex;
-  width: 300px;
-  justify-content: center;
-  padding: 20px;
-}
+  .box1a p {
+    font-weight: 300;
+    font-size: 20px;
+  }
 
-.orange-box {
-  background-color: rgb(241, 220, 176);
-  width: 100%;
-}
+  .box1b {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    height: 470px;
+    overflow: hidden;
+    border: 1px solid rgb(203, 182, 212);
+    box-shadow: 0px -0.5px 5px 0.5px rgba(26, 25, 25, 0.3);
+  }
 
+  .box1bi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 11, 63);
+    border: rgb(50, 11, 63);
+    width: 200px;
+    height: 85px;
+    color: #fff;
+    transform: skew(-45deg, 45deg);
+    margin-left: 32%;
+    font-size: 12px;
+    translate: 10px -17px;
+  }
 
-.box2, .box4 {
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  color: rgb(50, 11, 63);
-}
+  .box1biii {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(50, 11, 63);
+    border: rgb(50, 11, 63);
+    height: 90px;
+    font-size: 20px;
+    width: 220px;
+    translate: -10px 0px;
+  }
 
-.box2a, .box4a {
-  padding: 0px 5px;
-  width: 340px;
-  text-align: left;
-}
+  .box1c {
+    display: flex;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+  }
 
-.box2b, .box4b {
-  margin: 10px 20px;
-  justify-content: center;
-  align-content: center;
-}
+  .box2a,
+  .box4a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 300px;
+    padding: 10px;
+  }
 
-.box3, .box5 {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  align-items: center;
-  color: rgb(50, 11, 63);
-}
+  .box3b,
+  .box5b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 300px;
+    padding: 10px;
+  }
 
-.box3a, .box5a {
- margin: 10px auto;
-  justify-content: center;
-  align-content: center;
-}
-
-.box3b, .box5b {
-  padding: 0px 50px;
-  width: 340px;
-  text-align: left;
-}
-
-.vision {
-  display: inline;
-  text-align: left;
-  font-size: 20px;
-  padding: 0 10px;
-  width: 340px;
-}
-
-.box6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 480px;
-}
-
-.box6a, .box6b {
-  display: inline;
-  border: 2px solid rgb(50, 11, 63);
-  border-radius: 10px;
-  height: 190px;
-  width: 340px;
-  text-align: center;
-  padding: 10px;
-}
-
-.box7 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: #fff;
-  padding-block: 20px;
-  color: rgb(50, 11, 63);
-  align-items: first baseline;
-}
-
-.box7a {
-  display: inline;
-  justify-content: flex-start;
-  font-size: 20px;
-  align-items: center;
-  width: 140px;
-  height: 140px;
-}
-
-.box7b {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  font-size: 18px;
-  height: 200px;
-  line-height: 0%;
-
-}
-
-.box7c {
-  display: flex;
-  flex-direction: row;
-  font-size: 16px;
-  padding: 15px;
-}
-
-.copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background-color: #fff;
-  color: rgb(50, 11, 63);
-  font-size: 16px;
-}
-
-
-
-
-
-
+  .box6a,
+  .box6b {
+    display: inline;
+    border: 2px solid rgb(50, 11, 63);
+    margin: auto;
+    border-radius: 10px;
+    height: 190px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+  }
 }
